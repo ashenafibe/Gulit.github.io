@@ -250,6 +250,12 @@ font-size: 1.5rem;
   .dropdown__group {
     padding-left: 1.5rem;
   }
+  .nav__logo img{
+width: 100px;
+height: 60px;
+
+  }
+
   
 }
 
@@ -258,11 +264,15 @@ font-size: 1.5rem;
 width: 98%;
 
   }
-  .category-side{
+  aside{
 
-    display: none;
+    display: none !important;
   }
-
+  .nav__logo img{
+    width: 100px;
+    height: 60px;
+    
+      }
 }
 /* For large devices */
 @media screen and (min-width: 1000px) {
@@ -1161,5 +1171,8 @@ footer{
       list-style-type:none;
   }
 /*End of footer section */
+
+
+
 
 
